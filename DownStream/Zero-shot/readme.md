@@ -1,0 +1,1 @@
+The test procedure is based on the design demonstrated in the notebook available at: https://github.com/mahmoodlab/CONCH/blob/main/notebooks/zeroshot_classification_example_ensemble.ipynb.
