@@ -73,9 +73,9 @@ release.
 
 ## License
 
-The project code is intended to be released under the MIT License in the
-archival release. Third-party code and datasets remain subject to their original
-licenses and terms of use.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for
+details. Third-party components remain subject to their original licenses and
+terms of use.
 
 ## Acknowledgements
 
