@@ -1,0 +1,29 @@
+# Model files and checkpoints
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+checkpoints/
+weights/
+
+# Retrieval databases and local corpora
+*.db
+*.sqlite
+*.sqlite3
+data/
+corpus/
+
+# Uploaded clinical media
+*.avi
+*.mkv
+*.mov
+*.mp4
+*.mpeg
+*.webm
+*.wmv
+
+# Runtime files
+__pycache__/
+*.log
+
