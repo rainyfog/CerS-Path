@@ -57,8 +57,6 @@ local image/video interface and optional RAG workflow, see
 
 - Configure local data and output paths before running an experiment.
 - Keep all material from the same case within a single data partition.
-- Use the task-specific folds or random seeds reported with the corresponding
-  source data.
 - Hardware, package versions and dataset partitions may affect reproduced
   results.
 
