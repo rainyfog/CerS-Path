@@ -1,0 +1,6 @@
+gradio>=4.44
+pymilvus[model]>=2.4
+qwen-vl-utils
+torch
+transformers>=4.48
+
