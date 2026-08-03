@@ -9,9 +9,9 @@ logits:
                + (1 - bag_weight) * instance_loss
                + arpl_weight * arpl_loss
 
-This file contains only the reusable training objective. Dataset paths, model
-weights, experiment identifiers and evaluation-specific thresholding are
-deliberately excluded.
+This file contains only the reusable training objective. Dataset paths,
+experiment identifiers and evaluation-specific thresholding are deliberately
+excluded.
 
 Reference
 ---------
