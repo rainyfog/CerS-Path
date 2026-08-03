@@ -13,8 +13,8 @@ The workflow first produces a multimodal model response. When RAG is enabled, it
 uses the question and initial response as a retrieval query and then asks the
 model to refine its answer using the retrieved text.
 
-No model weights, retrieval database, patient data, clinical media, credentials,
-or institution-specific paths are included.
+No retrieval database, patient data, clinical media, credentials, or
+institution-specific paths are included.
 
 ## Install
 
@@ -76,4 +76,3 @@ authorized to process. This repository does not provide a clinical corpus.
 - Uploaded files are handled by the local Gradio process; do not expose the
   service publicly unless the inputs are approved for that environment.
 - Outputs are research results and require qualified human review.
-
