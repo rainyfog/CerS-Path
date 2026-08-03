@@ -84,8 +84,10 @@ This repository builds on or references:
 - [DINOv2](https://github.com/facebookresearch/dinov2)
 - [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)
 - [CLAM](https://github.com/mahmoodlab/CLAM)
+- [ARPL](https://github.com/gary23ai/ARPL)
 - [CONCH](https://github.com/mahmoodlab/CONCH)
 - [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT)
 - [Liger Kernel](https://github.com/linkedin/Liger-Kernel)
 
 For questions about the code, please open a GitHub issue.
+
