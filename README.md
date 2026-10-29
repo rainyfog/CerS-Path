@@ -53,6 +53,9 @@ For CerS-M setup and usage, see [`CerS-M/README.md`](CerS-M/README.md). For the
 local image/video interface and optional RAG workflow, see
 [`CerS-M/RAG-Video-Demo/README.md`](CerS-M/RAG-Video-Demo/README.md).
 
+For the fixed ROI-Pan-28 reproduction and its pinned environment, see
+[`DownStream/Linear/README.md`](DownStream/Linear/README.md).
+
 ## Reproducibility notes
 
 - Configure local data and output paths before running an experiment.
