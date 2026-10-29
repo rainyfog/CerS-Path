@@ -262,10 +262,10 @@ def validate(model, val_loader, criterion, device):
 # 主循环
 def main():
     # Dataset paths
-    train_images_dir = "/home/rainyfog/code/Tissue-seg/zz_Code-tissue-seg/DATA/tissue_1024_cropped_images/train/images"
-    train_masks_dir = "/home/rainyfog/code/Tissue-seg/zz_Code-tissue-seg/DATA/tissue_1024_cropped_images/train/masks"
-    val_images_dir = "/home/rainyfog/code/Tissue-seg/zz_Code-tissue-seg/DATA/tissue_1024_cropped_images/valid/images"
-    val_masks_dir = "/home/rainyfog/code/Tissue-seg/zz_Code-tissue-seg/DATA/tissue_1024_cropped_images/valid/masks"
+    train_images_dir = "data/train/images"
+    train_masks_dir = "data/train/masks"
+    val_images_dir = "data/validation/images"
+    val_masks_dir = "data/validation/masks"
 
     # Dataset and DataLoader
     from torch.utils.data import Subset
@@ -295,7 +295,7 @@ def main():
 
     # Initialize model
     from PFM_Seg_Models import PFM_Seg_Model
-    model = PFM_Seg_Model(PFM_name='UNI', PFM_weights_path='/home/rainyfog/code/Extra_features/ckpt/UNI/pytorch_model.bin', emb_dim=1024, frozen_PFM=True,num_classes=1)
+    model = PFM_Seg_Model(PFM_name='UNI', PFM_weights_path='weights/UNI/pytorch_model.bin', emb_dim=1024, frozen_PFM=True,num_classes=1)
     
     # 打印出需要更新的参数
     for name, param in model.named_parameters():

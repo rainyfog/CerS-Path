@@ -46,21 +46,13 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-The main tested environment uses Python 3.10 and PyTorch 2.5.1. A CUDA-capable
-Linux environment is recommended for training and multimodal inference.
+Task-specific dependencies and usage are provided in the corresponding directories.
 
 For CerS-M setup and usage, see [`CerS-M/README.md`](CerS-M/README.md). For the
 local image/video interface and optional RAG workflow, see
 [`CerS-M/RAG-Video-Demo/README.md`](CerS-M/RAG-Video-Demo/README.md).
 
-[ROI-Pan-28 reproduction](DownStream/Linear/README.md).
-
-## Reproducibility notes
-
-- Configure local data and output paths before running an experiment.
-- Keep all material from the same case within a single data partition.
-- Hardware, package versions and dataset partitions may affect reproduced
-  results.
+[ROI classification](DownStream/Linear/README.md).
 
 ## Citation
 

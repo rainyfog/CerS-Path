@@ -27,8 +27,8 @@ DS_SKIP_CUDA_CHECK=1 deepspeed --master_port 15666 src/training/train.py \
     --num_lora_modules -1 \
     --deepspeed scripts/zero3_offload.json \
     --model_id $MODEL_NAME \
-    --data_path /mnt/hcufs/VLM-WYZ/Data/henet_data_caption2500k_2025-03-09-changed-checked.json \
-    --image_folder /mnt/hcufs/VLM-WYZ/Data/ \
+    --data_path data/annotations.json \
+    --image_folder data/images/ \
     --remove_unused_columns False \
     --freeze_vision_tower False \
     --freeze_llm True \

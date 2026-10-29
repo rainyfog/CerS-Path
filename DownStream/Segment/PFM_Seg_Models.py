@@ -524,10 +524,8 @@ class PFM_Seg_Model(nn.Module):
 if __name__ == '__main__':
     # 权重路径
     # Gigapath_weights_path = '/path/to/Gigapath_weights'
-    UNI_weights_path = '/home/rainyfog/code/Extra_features/ckpt/UNI/pytorch_model.bin'
+    UNI_weights_path = 'weights/UNI/pytorch_model.bin'
     # Digepath_weights_path = '/path/to/Digepath_weights'
-    # Conch_v1_5_weights_path = '/Data/lingxt/Other_Pathology_Model/Conch_1_5_weights/'
-    # Virchow_v2_weights_path = '/Data/lingxt/Other_Pathology_Model/Virchow_2_weights/pytorch_model.bin'
     
     # 创建分割模型输入（1,3,224,224）输出（1，num_classes,224,224）
     # GigaPath_Seg_Model = PFM_Seg_Model(PFM_name='Gigapath', PFM_weights_path=Gigapath_weights_path, emb_dim=1536, frozen_PFM=True,num_classes=20)

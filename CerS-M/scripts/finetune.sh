@@ -6,7 +6,7 @@
 # MODEL_NAME="Qwen/Qwen2.5-VL-3B-Instruct"
 # MODEL_NAME="Qwen/Qwen2.5-VL-7B-Instruct"
 # MODEL_NAME="./output/merged_qwen2_5"
-MODEL_NAME="output/ckpt/merge_test-3482-custom_qwen2_5"
+MODEL_NAME="output/merged"
 GLOBAL_BATCH_SIZE=1024
 BATCH_PER_DEVICE=128
 NUM_DEVICES=8
@@ -18,8 +18,8 @@ DS_SKIP_CUDA_CHECK=1 deepspeed --master_port 15666 src/training/train.py \
     --use_liger True \
     --deepspeed scripts/zero3_offload.json \
     --model_id $MODEL_NAME \
-    --data_path /mnt/hcufs/VLM-WYZ/Data/henet_data_caption2500k_2025-03-09-changed-checked.json \
-    --image_folder /mnt/hcufs/VLM-WYZ/Data/ \
+    --data_path data/annotations.json \
+    --image_folder data/images/ \
     --remove_unused_columns False \
     --freeze_vision_tower False \
     --freeze_llm False \
