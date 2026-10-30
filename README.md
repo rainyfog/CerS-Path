@@ -14,15 +14,9 @@ components:
 The system is evaluated across whole-slide image (WSI), region-of-interest
 (ROI), segmentation, zero-shot, multimodal description and prognostic tasks.
 
-> [!IMPORTANT]
-> This repository is intended for research use only and is not a clinical
-> diagnostic product.
-
 ## Restricted model access
 
 Request access through the [CerS-Path weight repository](https://huggingface.co/Rainy-fog/CerS-Path).
-Its model card provides the associated gated dataset entry point; model and dataset
-access are reviewed separately.
 
 ## Repository structure
 
